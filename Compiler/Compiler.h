@@ -1,0 +1,42 @@
+#pragma   once  
+#include "Lexical.h"
+#include "SymbolTable.h"
+using namespace std;
+typedef unsigned int STRINGID;
+extern FILE *fp;
+extern char* buffer;
+extern int bufoff;
+extern char c;
+extern int row;
+extern char token[1000];
+extern int tokenoff;
+extern int num;
+extern char constchar;
+extern enum SYMBOL symbol;
+extern void file_init();
+extern char is_new_line;
+void printtable();
+bool pushentry(TableEntry entry);
+bool pushvar(enum TYPE type, string iden);
+STRINGID pushstring(string s);
+void program();
+void constblock();
+void constdef();
+bool parameterlist();
+bool all_integer();
+bool var_iden();
+void varblock();
+enum TYPE vartype();
+void statementblock();
+bool value_parameters(TableEntry *func);
+bool term();
+bool expression();
+bool caselist(TYPE switch_type);
+bool statement();
+bool allstatements();
+void funcbody();
+void type_check(Operand a, Operand b);
+void nfunc();
+void rfunc();
+void glbl_vardef();
+extern int getsym();

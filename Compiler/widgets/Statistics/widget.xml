@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<metadata>
+    <id>Statistics</id>
+    <description>Visits and Online Users Statistics Widget for BlogEngine.Net 2.0 or higher. Remember if don't want to use the widget then remove the HttpModule tag from web.config</description>
+    <authors>Hamid Jalali Shakib</authors>
+    <website>http://www.ITNerd.ir/</website>
+    <version>1.0.0.0</version>
+    <iconurl>http://www.itnerd.ir/pics/statistics.png</iconurl>
+</metadata>

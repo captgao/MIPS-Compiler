@@ -13,9 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="widgets">
+      <UniqueIdentifier>{4424eb65-f668-4a96-a222-5ecd677aa49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="widgets\Statistics">
+      <UniqueIdentifier>{73ab7537-9668-41bf-aca7-04a459c0650f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexical.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Compiler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParaList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Operand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaterntion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembly.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,5 +56,51 @@
     <ClCompile Include="Compiler.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Lexical.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Operand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaterntion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Assembly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="out.asm">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="widgets\Statistics\widget.ascx.cs">
+      <Filter>widgets\Statistics</Filter>
+    </None>
+    <None Include="widgets\Statistics\widget.ascx">
+      <Filter>widgets\Statistics</Filter>
+    </None>
+    <None Include="widgets\Statistics\edit.ascx.cs">
+      <Filter>widgets\Statistics</Filter>
+    </None>
+    <None Include="widgets\Statistics\edit.ascx">
+      <Filter>widgets\Statistics</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="widgets\Statistics\widget.xml">
+      <Filter>widgets\Statistics</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="widgets\Statistics\screenshot.png">
+      <Filter>widgets\Statistics</Filter>
+    </Image>
   </ItemGroup>
 </Project>
